@@ -27,9 +27,7 @@ class Basket {
 
     public BigDecimal getTotalCost() {
         BigDecimal cost = getCostWithoutDiscouts()
-        println 'cost ' + cost
         BigDecimal discount = discountsEngine.getDiscount(this)
-        println 'discounts ' + discount
         return cost.subtract(discount)
     }
 
