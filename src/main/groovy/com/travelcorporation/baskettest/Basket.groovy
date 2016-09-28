@@ -1,6 +1,7 @@
 package com.travelcorporation.baskettest
 
 import com.google.common.base.Preconditions
+import com.travelcorporation.baskettest.BasketRow.BasketRowFactory
 
 class Basket {
 

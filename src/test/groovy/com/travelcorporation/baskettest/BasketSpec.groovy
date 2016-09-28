@@ -1,6 +1,7 @@
 package com.travelcorporation.baskettest
 
 import spock.lang.Specification
+import com.travelcorporation.baskettest.BasketRow.BasketRowFactory
 
 class BasketSpec extends Specification {
 
