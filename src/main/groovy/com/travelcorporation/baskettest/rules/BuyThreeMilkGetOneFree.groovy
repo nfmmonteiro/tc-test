@@ -3,7 +3,7 @@ package com.travelcorporation.baskettest.rules
 import com.travelcorporation.baskettest.Basket
 import com.travelcorporation.baskettest.BasketRow
 import com.travelcorporation.baskettest.Discount
-import com.travelcorporation.baskettest.DiscountFactory
+import com.travelcorporation.baskettest.Discount.DiscountFactory
 import com.travelcorporation.baskettest.ProductType
 
 class BuyThreeMilkGetOneFree extends DiscountRule {
