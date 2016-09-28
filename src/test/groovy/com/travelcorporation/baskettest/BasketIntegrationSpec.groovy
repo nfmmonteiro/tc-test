@@ -14,8 +14,8 @@ import spock.lang.Unroll
 class BasketIntegrationSpec extends Specification {
 
     private static final Product BUTTER = new Product(ProductType.BUTTER, BigDecimal.valueOf(0.8))
-    private static final Product BREAD = new Product(ProductType.BREAD, BigDecimal.valueOf(1.0))
     private static final Product MILK = new Product(ProductType.MILK, BigDecimal.valueOf(1.15))
+    private static final Product BREAD = new Product(ProductType.BREAD, BigDecimal.valueOf(1.0))
 
     private Basket basket
 
@@ -32,7 +32,7 @@ class BasketIntegrationSpec extends Specification {
         basket = new Basket(basketRowFactory, discountsEngine)
     }
 
-    def 'Given the basket has #qtdBread bread, #qtdButter butter and #qtdMilk milk when I total the basket then the total should be £ #total' () {
+    def 'Given the basket has #qtdBread bread, #qtdButter butter and #qtdMilk milk when I total the basket then the total should be £ #total'() {
 
         given:
         basket.addProduct(BREAD, qtdBread)
