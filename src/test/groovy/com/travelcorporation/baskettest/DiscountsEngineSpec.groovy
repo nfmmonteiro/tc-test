@@ -5,7 +5,6 @@ import com.travelcorporation.baskettest.rules.BuyTwoButterGetOneBreadHalfPrice
 import com.travelcorporation.baskettest.rules.DiscountRule
 import spock.lang.Specification
 
-
 class DiscountsEngineSpec extends Specification {
 
     private Basket mockBasket
